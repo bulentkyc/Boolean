@@ -32,6 +32,48 @@ console.log('myBoolF', myBoolF,'!myBoolF', !myBoolF);
 console.log('myBoolT', myBoolT,'!myBoolT', !myBoolT);
 
 console.log(!0,!1);
+
+console.log('1>2', 1 > 2);
+
+console.log('1<2', 1 < 2);
+
+console.log('1<1', 1<1);
+
+console.log('1<=1', 1<=1);
+
+console.log('1>=1', 1>=1);
+
+console.log('1!=1', 1!=1);
+
+console.log('1!=2', 1!=2);
+
+let pass = '123';
+
+let check = prompt('Please enter the password');
+
+if (check == pass) {
+    console.log('Hey');
+    alert('Welcome Home');
+} else {
+    alert('Wrong Pass');
+    console.log('Bye');
+}
+
+/*
+
+///Info: Code Block: a code bunch which in a scope (like { })
+///Heads-Up: Code blocks works all together or any part of it don't work
+
+///Info: "If" is a special method which makes a logical control and
+///      Executes the code block just if the result of logical control is true
+///Heads-Up: The logical control have to output true or false (boolean)
+///          "If" just checks the output so basically you can write 
+///          true or false yourself and if can work always or never
+
+*/
+
+
+
 //0 = false, 1 = true
 
 
